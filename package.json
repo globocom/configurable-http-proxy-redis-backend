@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "name": "configurable-http-proxy-redis-backend",
+  "description": "Redis Backend for Jupyter's Configurable Proxy",
+  "author": "Globo.com",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/globocom/configurable-http-proxy-redis-backend.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^21.2.1"
+  },
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "engineStrict": true,
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "lint": "eslint lib/",
+    "test": "npm run lint && jest --verbose --no-cache"
+  }
+}
