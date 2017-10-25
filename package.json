@@ -9,8 +9,7 @@
     "url": "https://github.com/globocom/configurable-http-proxy-redis-backend.git"
   },
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "redis": "^2.8.0"
+    "ioredis": "^3.2.1"
   },
   "devDependencies": {
     "eslint": "^4.8.0",
@@ -28,6 +27,7 @@
   ],
   "scripts": {
     "lint": "eslint lib/",
-    "test": "npm run lint && jest --verbose --no-cache"
+    "test": "jest --verbose --no-cache",
+    "watch": "jest --verbose --no-cache --watchAll"
   }
 }
