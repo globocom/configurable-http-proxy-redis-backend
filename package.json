@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "lint": "eslint lib/",
-    "test": "jest --verbose --no-cache",
+    "test": "jest --verbose --no-cache --forceExit",
     "watch": "jest --verbose --no-cache --watchAll"
   }
 }
