@@ -18,7 +18,7 @@
     "jest": "^21.2.1"
   },
   "engines": {
-    "node": ">= 4.0"
+    "node": ">= 6.11.1"
   },
   "engineStrict": true,
   "main": "lib/index.js",

@@ -6,7 +6,7 @@
 
 # Install
 
-**configurable-http-proxy-redis-backend** requires Node.js ≥ 4.
+**configurable-http-proxy-redis-backend** requires Node.js ≥ v6.11.1.
 
 To install *configurable-http-proxy-redis-backend*:
 
