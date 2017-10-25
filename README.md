@@ -1,5 +1,7 @@
 # Redis Backend for Jupyter's Configurable Proxy
 
+[![Build Status](https://travis-ci.org/globocom/configurable-http-proxy-redis-backend.svg?branch=master)](https://travis-ci.org/globocom/configurable-http-proxy-redis-backend)
+
 *configurable-http-proxy-redis-backend* in an extension for [configurable-http-proxy](https://github.com/jupyterhub/configurable-http-proxy). It allows routes to be saved in a Redis server.
 
 # Install
