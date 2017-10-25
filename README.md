@@ -19,5 +19,13 @@ npm install configurable-http-proxy configurable-http-proxy-redis-backend
 After installing, you should be able to use **--storage-backend** *configurable-http-proxy-redis-backend* argument. 
 
 ```
-node bin/configurable-http-proxy --ip 0.0.0.0 --port 8043 --api-ip 0.0.0.0 --api-port 8044 --default-target http://127.0.0.1:8081 --error-target http://127.0.0.1:8081/hub/error --log-level debug --storage-backend configurable-http-proxy-redis-backend
+node bin/configurable-http-proxy \
+    --ip 0.0.0.0 \
+    --port 8043 \
+    --api-ip 0.0.0.0 \
+    --api-port 8044 \
+    --default-target http://127.0.0.1:8081 \
+    --error-target http://127.0.0.1:8081/hub/error \
+    --log-level debug \
+    --storage-backend configurable-http-proxy-redis-backend
 ```
