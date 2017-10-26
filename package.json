@@ -9,7 +9,8 @@
     "url": "https://github.com/globocom/configurable-http-proxy-redis-backend.git"
   },
   "dependencies": {
-    "ioredis": "^3.2.1"
+    "ioredis": "^3.2.1",
+    "normalize-url": "^1.9.1"
   },
   "devDependencies": {
     "eslint": "^4.8.0",
