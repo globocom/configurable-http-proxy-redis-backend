@@ -1,8 +1,22 @@
 {
-    "extends": "airbnb-base",
-    "rules": {
-        "semi": [2, "never"],
-       "no-param-reassign": "off",
-       "class-methods-use-this": "off"
-    }
+  "env": {
+    "browser": false,
+    "commonjs": false,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "class-methods-use-this": "off",
+    "no-underscore-dangle": "off",
+    "no-console": "off",
+    "no-new": "off",
+    "semi": [
+      2,
+      "never"
+    ]
+  }
 }
