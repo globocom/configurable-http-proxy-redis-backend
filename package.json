@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "configurable-http-proxy-redis-backend",
   "description": "Redis Backend for Jupyter's Configurable Proxy",
   "author": "Globo.com",
