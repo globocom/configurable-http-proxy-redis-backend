@@ -6,7 +6,7 @@
 
 # Install
 
-**configurable-http-proxy-redis-backend** requires Node.js ≥ v6.11.1 and **configurable-http-proxy** ≥ v3.0.1.
+**configurable-http-proxy-redis-backend** requires Node.js ≥ v6.0.0 and **configurable-http-proxy** ≥ v3.1.0.
 
 
 To install *configurable-http-proxy-redis-backend*:
@@ -17,18 +17,16 @@ npm install configurable-http-proxy configurable-http-proxy-redis-backend
 
 # Usage
 
-After installing, you should be able to use **--storage-backend** *configurable-http-proxy-redis-backend* argument. 
-
 First of all, you must export `CONFIGURABLE_PROXY_REDIS_URI` environment variable. URI should follow the format specified in [ioredis](https://github.com/luin/ioredis).
 
 ```
  export CONFIGURABLE_PROXY_REDIS_URI=redis://host.myredis:6379
 ```
 
-
+After installing and exporting `CONFIGURABLE_PROXY_REDIS_URI`, you should be able to use **--storage-backend** *configurable-http-proxy-redis-backend* argument. 
 
 ```
-node bin/configurable-http-proxy \
+configurable-http-proxy \
     --ip 0.0.0.0 \
     --port 8043 \
     --api-ip 0.0.0.0 \
