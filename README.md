@@ -36,3 +36,7 @@ configurable-http-proxy \
     --log-level debug \
     --storage-backend configurable-http-proxy-redis-backend
 ```
+
+# Work in Progress
+
+* Support for [Sentinel](https://redis.io/topics/sentinel) URL
