@@ -37,6 +37,13 @@ configurable-http-proxy \
     --storage-backend configurable-http-proxy-redis-backend
 ```
 
-# Work in Progress
+# Redis URL and Sentinel URL
 
-* Support for [Sentinel](https://redis.io/topics/sentinel) URL
+Currently, we are supporting the follow URL formats:
+
+* redis://host:port/[name]
+* redis://:auth@host:port/[name]
+
+* sentinel://host:port/master-name
+* sentinel://host1:port,host2:port/master-name
+* sentinel://:auth@host1:port,host2:port/master-name
