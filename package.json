@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "name": "configurable-http-proxy-redis-backend",
   "description": "Redis Backend for Jupyter's Configurable Proxy",
   "author": "Globo.com",
@@ -27,7 +27,8 @@
   "engineStrict": true,
   "main": "lib/index.js",
   "files": [
-    "lib/index.js"
+    "lib/index.js",
+    "lib/sentinel.js"
   ],
   "scripts": {
     "lint": "eslint lib/",
